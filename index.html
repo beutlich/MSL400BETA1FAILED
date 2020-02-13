@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <head>
+<style type="text/css">
+body{ background: #EEEEEE; color: #000; text-align: center;}
+body, table{ font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+#page{ width: 700px; margin: auto; text-align: left; background-color: #FFF;}
+table.info{ border: 0; width: 690px; margin: 5px;}
+table.info td{ background-color: #efefef; padding: 1em;}
+table.info td.header{ font-weight: bold; width: 150px; background-color: #EEE;}
+table.info td.error, span.error { background-color: #F5A9BC; color: red; }
+table.info td.ok, span.ok{ background-color: #CDFECD; color: green; }
+table.info td.untested, span.untested{ background-color: #DDD; color: #999; }
+table.info td.right{ text-align: right; }
+h1{ font-size: 16px; padding: 1em; }
+</style>
+</head>
+<body>
+<div id="page">
+<table class="info">
+	<tr><td colspan="3" class="header"><h1>Meta report - CSV file comparison</h1></td></tr>
+	<tr><td colspan="2" class="header">Timestamp:</td><td>13.02.2020 21:20:46 [UTC]</td></tr>
+	<tr><td colspan="2" class="header">Mode:</td><td>CsvTreeCompare</td></tr>
+	<tr><td colspan="2" class="header">Base directory:</td><td>c:\Projekte\MAP-LIB_ReferenceResults\</td></tr>
+	<tr><td colspan="2" class="header">Compare directory:</td><td>c:\compare\Failed\</td></tr>
+	<tr><td colspan="2" class="header">Verbosity:</td><td>2</td></tr>
+	<tr><td colspan="2" class="header">Tolerance:</td><td>2e-3</td></tr>
+	<tr><td colspan="2" class="header">Logfile:</td><td><a href="log.txt">log.txt</a></td></tr>
+	<tr><td colspan="2" class="header">Loglevel:</td><td>Debug</td></tr>
+	<tr><td colspan="2" class="header">Compared files:</td><td>The compare directory contained 32 files.<br/>32 files were tested.<br/>32 files failed.<br/>Success rate is 0,0%.</td></tr>
+<tr><td class="header" colspan="3">Results</td></tr>
+<tr><td colspan="2">&nbsp;</td><td>FAILED - At least one result failed its check with the base file.<br/>UNTESTED - No base file has been found or an exception occurred.<br/>SUCCEEDED - All results have been checked and are valid.</td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,02</td><td class="error"><a href="Modelica.Blocks.Examples.NoiseExamples.ActuatorWithNoise.ActuatorWithNoise_report.html">Modelica\Blocks\Examples\NoiseExamples\ActuatorWithNoise\ActuatorWithNoise.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;35,24</td><td class="error"><a href="Modelica.Blocks.Examples.NoiseExamples.DrydenContinuousTurbulence.DrydenContinuousTurbulence_report.html">Modelica\Blocks\Examples\NoiseExamples\DrydenContinuousTurbulence\DrydenContinuousTurbulence.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;1,20</td><td class="error"><a href="Modelica.Electrical.Analog.Examples.OpAmps.Differentiator.Differentiator_report.html">Modelica\Electrical\Analog\Examples\OpAmps\Differentiator\Differentiator.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,38</td><td class="error"><a href="Modelica.Electrical.Analog.Examples.OpAmps.HighPass.HighPass_report.html">Modelica\Electrical\Analog\Examples\OpAmps\HighPass\HighPass.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;1,20</td><td class="error"><a href="Modelica.Electrical.Analog.Examples.OpAmps.Integrator.Integrator_report.html">Modelica\Electrical\Analog\Examples\OpAmps\Integrator\Integrator.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,76</td><td class="error"><a href="Modelica.Electrical.Analog.Examples.OpAmps.LowPass.LowPass_report.html">Modelica\Electrical\Analog\Examples\OpAmps\LowPass\LowPass.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Electrical.Machines.Examples.InductionMachines.IMC_InverterDrive.IMC_InverterDrive_report.html">Modelica\Electrical\Machines\Examples\InductionMachines\IMC_InverterDrive\IMC_InverterDrive.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierCenterTap2mPulse.ThyristorCenterTap2mPulse_R.ThyristorCenterTap2mPulse_R_report.html">Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_R\ThyristorCenterTap2mPulse_R.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierCenterTap2mPulse.ThyristorCenterTap2mPulse_RL.ThyristorCenterTap2mPulse_RL_report.html">Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_RL\ThyristorCenterTap2mPulse_RL.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierCenterTap2mPulse.ThyristorCenterTap2mPulse_RLV.ThyristorCenterTap2mPulse_RLV_report.html">Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_RLV\ThyristorCenterTap2mPulse_RLV.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,05</td><td class="error"><a href="Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepDown.ChopperStepDown_R.ChopperStepDown_R_report.html">Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepDown\ChopperStepDown_R\ChopperStepDown_R.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,05</td><td class="error"><a href="Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepDown.ChopperStepDown_RL.ChopperStepDown_RL_report.html">Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepDown\ChopperStepDown_RL\ChopperStepDown_RL.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,05</td><td class="error"><a href="Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepUp.ChopperStepUp_R.ChopperStepUp_R_report.html">Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepUp\ChopperStepUp_R\ChopperStepUp_R.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;17,36</td><td class="error"><a href="Modelica.Fluid.Examples.AST_BatchPlant.BatchPlant_StandardWater.BatchPlant_StandardWater_report.html">Modelica\Fluid\Examples\AST_BatchPlant\BatchPlant_StandardWater\BatchPlant_StandardWater.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;5,29</td><td class="error"><a href="Modelica.Fluid.Examples.HeatingSystem.HeatingSystem_report.html">Modelica\Fluid\Examples\HeatingSystem\HeatingSystem.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.ComparisonPolyphase.IMS_Start_Polyphase.IMS_Start_Polyphase_report.html">Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\ComparisonPolyphase\IMS_Start_Polyphase\IMS_Start_Polyphase.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL.IMC_DOL_report.html">Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_DOL\IMC_DOL.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Initialize.IMC_Initialize_report.html">Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Steinmetz.IMC_Steinmetz_report.html">Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Steinmetz\IMC_Steinmetz.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Transformer.IMC_Transformer_report.html">Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Transformer\IMC_Transformer.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_withLosses.IMC_withLosses_report.html">Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_withLosses\IMC_withLosses.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_YD.IMC_YD_report.html">Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_YD\IMC_YD.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start.IMS_Start_report.html">Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMS_Start\IMS_Start.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Conveyor.IMC_Conveyor_report.html">Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Conveyor\IMC_Conveyor.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Initialize.IMC_Initialize_report.html">Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Transformer.IMC_Transformer_report.html">Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Transformer\IMC_Transformer.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_YD.IMC_YD_report.html">Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_YD\IMC_YD.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,00</td><td class="error"><a href="Modelica.Mechanics.MultiBody.Examples.Elementary.PointGravityWithPointMasses2.PointGravityWithPointMasses2_report.html">Modelica\Mechanics\MultiBody\Examples\Elementary\PointGravityWithPointMasses2\PointGravityWithPointMasses2.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,03</td><td class="error"><a href="Modelica.Mechanics.MultiBody.Examples.Loops.Engine1b.Engine1b_report.html">Modelica\Mechanics\MultiBody\Examples\Loops\Engine1b\Engine1b.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,03</td><td class="error"><a href="Modelica.Mechanics.MultiBody.Examples.Loops.Engine1b_analytic.Engine1b_analytic_report.html">Modelica\Mechanics\MultiBody\Examples\Loops\Engine1b_analytic\Engine1b_analytic.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,01</td><td class="error"><a href="Modelica.StateGraph.Examples.FirstExample_Variant2.FirstExample_Variant2_report.html">Modelica\StateGraph\Examples\FirstExample_Variant2\FirstExample_Variant2.csv</a></td></tr>
+<tr><td class="error right">FAILED</td><td class="error">&Oslash;0,01</td><td class="error"><a href="Modelica.StateGraph.Examples.FirstExample_Variant3.FirstExample_Variant3_report.html">Modelica\StateGraph\Examples\FirstExample_Variant3\FirstExample_Variant3.csv</a></td></tr>
+</table>
+</div>
+  </body>
+</html>
+

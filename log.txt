@@ -1,0 +1,1543 @@
+﻿2020-02-13Z22:14:11 [       Debug ] Starting new result check @13.02.2020 22:14:11
+2020-02-13Z22:14:11 [       Debug ] Parsing command line options: 
+ * --mode csvTreeCompare --override --tolerance 2e-3 --delimiter , --verbosity 2 c:\compare\Failed\ c:\Projekte\MAP-LIB_ReferenceResults\ --logfile log.txt --comparisonflag --reportdir c:\compare\MSL400BETA1FAILED\
+2020-02-13Z22:14:11 [       Debug ] Successfully parsed the following options:
+2020-02-13Z22:14:11 [       Debug ] Operation mode is CsvTreeCompare
+2020-02-13Z22:14:11 [       Debug ] Tolerance is 2e-3
+2020-02-13Z22:14:11 [       Debug ] Delimiter to be used to parse CSV has been explicitly set and is ","
+2020-02-13Z22:14:11 [       Debug ] Logfile is log.txt
+2020-02-13Z22:14:11 [       Debug ] Searching for file ActuatorWithNoise.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:11 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:11 [       Debug ] Column "controller.busdelay.y" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "controller.positionToSpeed.x" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "controller.position_PI.x" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "controller.speed_PI.x" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "elastoGap.s_rel" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "elastoGap.v_rel" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "gearbox.phi_rel" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "gearbox.w_rel" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "rodMass.s" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "rodMass.v" seems to be text, this is good.
+2020-02-13Z22:14:11 [       Debug ] Column "slewRateLimiter.y" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "controller.busdelay.y" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "controller.positionToSpeed.x" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "controller.position_PI.x" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "controller.speed_PI.x" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "elastoGap.s_rel" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "elastoGap.v_rel" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "gearbox.phi_rel" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "gearbox.w_rel" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "rodMass.s" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "rodMass.v" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Column "slewRateLimiter.y" seems to be text, this is good.
+2020-02-13Z22:14:12 [       Debug ] Exiting with exit code "0".
+2020-02-13Z22:14:12 [ Information ] Comparing "c:\compare\Failed\Modelica\Blocks\Examples\NoiseExamples\ActuatorWithNoise\ActuatorWithNoise.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Blocks\Examples\NoiseExamples\ActuatorWithNoise\ActuatorWithNoise.csv"
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [     Warning ] controller.busdelay.y is invalid! 730 errors have been found during validation.
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [ Information ] controller.positionToSpeed.x is valid
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [ Information ] controller.position_PI.x is valid
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [     Warning ] controller.speed_PI.x is invalid! 906 errors have been found during validation.
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [ Information ] elastoGap.s_rel is valid
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [ Information ] elastoGap.v_rel is valid
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [ Information ] gearbox.phi_rel is valid
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [ Information ] gearbox.w_rel is valid
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [ Information ] rodMass.s is valid
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [     Warning ] rodMass.v is invalid! 140 errors have been found during validation.
+2020-02-13Z22:14:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:12 [ Information ] slewRateLimiter.y is valid
+2020-02-13Z22:14:13 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Blocks.Examples.NoiseExamples.ActuatorWithNoise.ActuatorWithNoise_report.html
+2020-02-13Z22:14:13 [       Debug ] Searching for file DrydenContinuousTurbulence.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:13 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:13 [       Debug ] Column "Hw.x_scaled[1]" seems to be text, this is good.
+2020-02-13Z22:14:13 [       Debug ] Column "Hw.x_scaled[2]" seems to be text, this is good.
+2020-02-13Z22:14:13 [       Debug ] Column "Hw.x_scaled[1]" seems to be text, this is good.
+2020-02-13Z22:14:13 [       Debug ] Column "Hw.x_scaled[2]" seems to be text, this is good.
+2020-02-13Z22:14:14 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:14 [ Information ] Comparing "c:\compare\Failed\Modelica\Blocks\Examples\NoiseExamples\DrydenContinuousTurbulence\DrydenContinuousTurbulence.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Blocks\Examples\NoiseExamples\DrydenContinuousTurbulence\DrydenContinuousTurbulence.csv"
+2020-02-13Z22:14:14 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:14 [     Warning ] Hw.x_scaled[1] is invalid! 28426 errors have been found during validation.
+2020-02-13Z22:14:16 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:16 [     Warning ] Hw.x_scaled[2] is invalid! 38890 errors have been found during validation.
+2020-02-13Z22:14:20 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Blocks.Examples.NoiseExamples.DrydenContinuousTurbulence.DrydenContinuousTurbulence_report.html
+2020-02-13Z22:14:20 [       Debug ] Searching for file Differentiator.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:20 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:20 [       Debug ] Column "der_.c.v" seems to be text, this is good.
+2020-02-13Z22:14:20 [       Debug ] Column "der_.opAmp.out.v" seems to be text, this is good.
+2020-02-13Z22:14:20 [       Debug ] Column "der_.opAmp.out.i" seems to be text, this is good.
+2020-02-13Z22:14:20 [       Debug ] Column "der_.c.v" seems to be text, this is good.
+2020-02-13Z22:14:20 [       Debug ] Column "der_.opAmp.out.v" seems to be text, this is good.
+2020-02-13Z22:14:20 [       Debug ] Column "der_.opAmp.out.i" seems to be text, this is good.
+2020-02-13Z22:14:20 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:20 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\Analog\Examples\OpAmps\Differentiator\Differentiator.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\Analog\Examples\OpAmps\Differentiator\Differentiator.csv"
+2020-02-13Z22:14:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:20 [     Warning ] der_.c.v is invalid! 1853 errors have been found during validation.
+2020-02-13Z22:14:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:20 [     Warning ] der_.opAmp.out.v is invalid! 1834 errors have been found during validation.
+2020-02-13Z22:14:20 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:20 [     Warning ] der_.opAmp.out.i is invalid! 1834 errors have been found during validation.
+2020-02-13Z22:14:21 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.Analog.Examples.OpAmps.Differentiator.Differentiator_report.html
+2020-02-13Z22:14:21 [       Debug ] Searching for file HighPass.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:21 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:21 [       Debug ] Column "derivative.c.v" seems to be text, this is good.
+2020-02-13Z22:14:21 [       Debug ] Column "derivative.opAmp.out.v" seems to be text, this is good.
+2020-02-13Z22:14:21 [       Debug ] Column "derivative.opAmp.out.i" seems to be text, this is good.
+2020-02-13Z22:14:21 [       Debug ] Column "derivative.c.v" seems to be text, this is good.
+2020-02-13Z22:14:21 [       Debug ] Column "derivative.opAmp.out.v" seems to be text, this is good.
+2020-02-13Z22:14:21 [       Debug ] Column "derivative.opAmp.out.i" seems to be text, this is good.
+2020-02-13Z22:14:21 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:21 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\Analog\Examples\OpAmps\HighPass\HighPass.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\Analog\Examples\OpAmps\HighPass\HighPass.csv"
+2020-02-13Z22:14:21 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:21 [     Warning ] derivative.c.v is invalid! 2032 errors have been found during validation.
+2020-02-13Z22:14:21 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:21 [     Warning ] derivative.opAmp.out.v is invalid! 1819 errors have been found during validation.
+2020-02-13Z22:14:21 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:21 [     Warning ] derivative.opAmp.out.i is invalid! 1819 errors have been found during validation.
+2020-02-13Z22:14:21 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.Analog.Examples.OpAmps.HighPass.HighPass_report.html
+2020-02-13Z22:14:22 [       Debug ] Searching for file Integrator.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:22 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:22 [       Debug ] Column "integrator.c.v" seems to be text, this is good.
+2020-02-13Z22:14:22 [       Debug ] Column "integrator.opAmp.out.v" seems to be text, this is good.
+2020-02-13Z22:14:22 [       Debug ] Column "integrator.opAmp.out.i" seems to be text, this is good.
+2020-02-13Z22:14:22 [       Debug ] Column "integrator.c.v" seems to be text, this is good.
+2020-02-13Z22:14:22 [       Debug ] Column "integrator.opAmp.out.v" seems to be text, this is good.
+2020-02-13Z22:14:22 [       Debug ] Column "integrator.opAmp.out.i" seems to be text, this is good.
+2020-02-13Z22:14:22 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:22 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\Analog\Examples\OpAmps\Integrator\Integrator.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\Analog\Examples\OpAmps\Integrator\Integrator.csv"
+2020-02-13Z22:14:22 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:22 [     Warning ] integrator.c.v is invalid! 1862 errors have been found during validation.
+2020-02-13Z22:14:22 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:22 [     Warning ] integrator.opAmp.out.v is invalid! 1862 errors have been found during validation.
+2020-02-13Z22:14:22 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:22 [     Warning ] integrator.opAmp.out.i is invalid! 1882 errors have been found during validation.
+2020-02-13Z22:14:22 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.Analog.Examples.OpAmps.Integrator.Integrator_report.html
+2020-02-13Z22:14:23 [       Debug ] Searching for file LowPass.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:23 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:23 [       Debug ] Column "firstOrder.c.v" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "firstOrder.opAmp.out.v" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "firstOrder.opAmp.out.i" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "firstOrder.c.v" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "firstOrder.opAmp.out.v" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "firstOrder.opAmp.out.i" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:23 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\Analog\Examples\OpAmps\LowPass\LowPass.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\Analog\Examples\OpAmps\LowPass\LowPass.csv"
+2020-02-13Z22:14:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:23 [     Warning ] firstOrder.c.v is invalid! 2032 errors have been found during validation.
+2020-02-13Z22:14:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:23 [     Warning ] firstOrder.opAmp.out.v is invalid! 2032 errors have been found during validation.
+2020-02-13Z22:14:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:14:23 [     Warning ] firstOrder.opAmp.out.i is invalid! 1688 errors have been found during validation.
+2020-02-13Z22:14:23 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.Analog.Examples.OpAmps.LowPass.LowPass_report.html
+2020-02-13Z22:14:23 [       Debug ] Searching for file IMC_InverterDrive.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:23 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:23 [       Debug ] Column "aimc.i_0_s" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "aimc.idq_rr[1]" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "aimc.idq_rr[2]" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "aimc.idq_sr[1]" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "aimc.idq_sr[2]" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "capacitor.v" seems to be text, this is good.
+2020-02-13Z22:14:23 [       Debug ] Column "inductor.inductor[2].i" seems to be text, this is good.
+2020-02-13Z22:14:24 [       Debug ] Column "inductor.inductor[3].i" seems to be text, this is good.
+2020-02-13Z22:14:24 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:14:24 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:14:24 [       Debug ] Column "vfController.x" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "aimc.i_0_s" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "aimc.idq_rr[1]" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "aimc.idq_rr[2]" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "aimc.idq_sr[1]" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "aimc.idq_sr[2]" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "capacitor.v" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "inductor.inductor[2].i" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "inductor.inductor[3].i" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:14:25 [       Debug ] Column "vfController.x" seems to be text, this is good.
+2020-02-13Z22:14:26 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:26 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\Machines\Examples\InductionMachines\IMC_InverterDrive\IMC_InverterDrive.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\Machines\Examples\InductionMachines\IMC_InverterDrive\IMC_InverterDrive.csv"
+2020-02-13Z22:14:26 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:28 [     Warning ] aimc.i_0_s is invalid! 75659 errors have been found during validation.
+2020-02-13Z22:14:41 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:42 [ Information ] aimc.idq_rr[1] is valid
+2020-02-13Z22:14:42 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:43 [ Information ] aimc.idq_rr[2] is valid
+2020-02-13Z22:14:43 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:45 [ Information ] aimc.idq_sr[1] is valid
+2020-02-13Z22:14:45 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:46 [ Information ] aimc.idq_sr[2] is valid
+2020-02-13Z22:14:46 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:47 [ Information ] capacitor.v is valid
+2020-02-13Z22:14:48 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:48 [ Information ] inductor.inductor[2].i is valid
+2020-02-13Z22:14:48 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:48 [ Information ] inductor.inductor[3].i is valid
+2020-02-13Z22:14:49 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:49 [ Information ] loadInertia.phi is valid
+2020-02-13Z22:14:50 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:50 [ Information ] loadInertia.w is valid
+2020-02-13Z22:14:51 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:51 [ Information ] vfController.x is valid
+2020-02-13Z22:14:54 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.Machines.Examples.InductionMachines.IMC_InverterDrive.IMC_InverterDrive_report.html
+2020-02-13Z22:14:54 [       Debug ] Searching for file ThyristorCenterTap2mPulse_R.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:54 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:54 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:14:54 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:14:54 [       Debug ] Column "rootMeanSquareVoltage.mean.x" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerNegative[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerNegative[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerNegative[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerPositive[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerPositive[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerPositive[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rootMeanSquareVoltage.mean.y" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rootMeanSquareVoltage.mean.x" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerNegative[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerNegative[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerNegative[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerPositive[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerPositive[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "pulse2m.twomPulse.timerPositive[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Column "rootMeanSquareVoltage.mean.y" seems to be text, this is good.
+2020-02-13Z22:14:55 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:55 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_R\ThyristorCenterTap2mPulse_R.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_R\ThyristorCenterTap2mPulse_R.csv"
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] meanCurrent.x is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] meanVoltage.x is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] rootMeanSquareVoltage.mean.x is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] meanCurrent.y is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] meanVoltage.y is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] pulse2m.twomPulse.timerNegative[1].entryTime is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] pulse2m.twomPulse.timerNegative[2].entryTime is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] pulse2m.twomPulse.timerNegative[3].entryTime is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] pulse2m.twomPulse.timerPositive[1].entryTime is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] pulse2m.twomPulse.timerPositive[2].entryTime is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] pulse2m.twomPulse.timerPositive[3].entryTime is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] rectifier.thyristor_n.idealThyristor[1].off is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] rectifier.thyristor_n.idealThyristor[2].off is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] rectifier.thyristor_n.idealThyristor[3].off is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] rectifier.thyristor_p.idealThyristor[1].off is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] rectifier.thyristor_p.idealThyristor[2].off is valid
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [     Warning ] rectifier.thyristor_p.idealThyristor[3].off is invalid! 2 errors have been found during validation.
+2020-02-13Z22:14:55 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:55 [ Information ] rootMeanSquareVoltage.mean.y is valid
+2020-02-13Z22:14:56 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierCenterTap2mPulse.ThyristorCenterTap2mPulse_R.ThyristorCenterTap2mPulse_R_report.html
+2020-02-13Z22:14:56 [       Debug ] Searching for file ThyristorCenterTap2mPulse_RL.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:56 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:56 [       Debug ] Column "inductor.i" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rootMeanSquareVoltage.mean.x" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerNegative[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerNegative[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerNegative[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerPositive[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerPositive[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerPositive[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rootMeanSquareVoltage.mean.y" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "inductor.i" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rootMeanSquareVoltage.mean.x" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerNegative[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerNegative[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerNegative[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerPositive[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerPositive[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "pulse2m.twomPulse.timerPositive[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Column "rootMeanSquareVoltage.mean.y" seems to be text, this is good.
+2020-02-13Z22:14:56 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:56 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_RL\ThyristorCenterTap2mPulse_RL.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_RL\ThyristorCenterTap2mPulse_RL.csv"
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] inductor.i is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] meanCurrent.x is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] meanVoltage.x is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] rootMeanSquareVoltage.mean.x is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] meanCurrent.y is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] meanVoltage.y is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] pulse2m.twomPulse.timerNegative[1].entryTime is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] pulse2m.twomPulse.timerNegative[2].entryTime is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] pulse2m.twomPulse.timerNegative[3].entryTime is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] pulse2m.twomPulse.timerPositive[1].entryTime is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] pulse2m.twomPulse.timerPositive[2].entryTime is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] pulse2m.twomPulse.timerPositive[3].entryTime is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] rectifier.thyristor_n.idealThyristor[1].off is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:56 [ Information ] rectifier.thyristor_n.idealThyristor[2].off is valid
+2020-02-13Z22:14:56 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] rectifier.thyristor_n.idealThyristor[3].off is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] rectifier.thyristor_p.idealThyristor[1].off is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] rectifier.thyristor_p.idealThyristor[2].off is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [     Warning ] rectifier.thyristor_p.idealThyristor[3].off is invalid! 2 errors have been found during validation.
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] rootMeanSquareVoltage.mean.y is valid
+2020-02-13Z22:14:57 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierCenterTap2mPulse.ThyristorCenterTap2mPulse_RL.ThyristorCenterTap2mPulse_RL_report.html
+2020-02-13Z22:14:57 [       Debug ] Searching for file ThyristorCenterTap2mPulse_RLV.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:57 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:57 [       Debug ] Column "inductor.i" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rootMeanSquareVoltage.mean.x" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerNegative[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerNegative[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerNegative[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerPositive[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerPositive[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerPositive[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rootMeanSquareVoltage.mean.y" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "inductor.i" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rootMeanSquareVoltage.mean.x" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerNegative[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerNegative[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerNegative[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerPositive[1].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerPositive[2].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "pulse2m.twomPulse.timerPositive[3].entryTime" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_n.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[1].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[2].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rectifier.thyristor_p.idealThyristor[3].off" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Column "rootMeanSquareVoltage.mean.y" seems to be text, this is good.
+2020-02-13Z22:14:57 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:57 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_RLV\ThyristorCenterTap2mPulse_RLV.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\PowerConverters\Examples\ACDC\RectifierCenterTap2mPulse\ThyristorCenterTap2mPulse_RLV\ThyristorCenterTap2mPulse_RLV.csv"
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] inductor.i is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] meanCurrent.x is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] meanVoltage.x is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] rootMeanSquareVoltage.mean.x is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] meanCurrent.y is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] meanVoltage.y is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] pulse2m.twomPulse.timerNegative[1].entryTime is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] pulse2m.twomPulse.timerNegative[2].entryTime is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:57 [ Information ] pulse2m.twomPulse.timerNegative[3].entryTime is valid
+2020-02-13Z22:14:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] pulse2m.twomPulse.timerPositive[1].entryTime is valid
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] pulse2m.twomPulse.timerPositive[2].entryTime is valid
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] pulse2m.twomPulse.timerPositive[3].entryTime is valid
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] rectifier.thyristor_n.idealThyristor[1].off is valid
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] rectifier.thyristor_n.idealThyristor[2].off is valid
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] rectifier.thyristor_n.idealThyristor[3].off is valid
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] rectifier.thyristor_p.idealThyristor[1].off is valid
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] rectifier.thyristor_p.idealThyristor[2].off is valid
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [     Warning ] rectifier.thyristor_p.idealThyristor[3].off is invalid! 2 errors have been found during validation.
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [ Information ] rootMeanSquareVoltage.mean.y is valid
+2020-02-13Z22:14:58 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.PowerConverters.Examples.ACDC.RectifierCenterTap2mPulse.ThyristorCenterTap2mPulse_RLV.ThyristorCenterTap2mPulse_RLV_report.html
+2020-02-13Z22:14:58 [       Debug ] Searching for file ChopperStepDown_R.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:14:58 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:14:58 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "chopperStepDown.vDC1" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "chopperStepDown.iDC1" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "chopperStepDown.vDC2" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "chopperStepDown.iDC2" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "chopperStepDown.vDC1" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "chopperStepDown.iDC1" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "chopperStepDown.vDC2" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Column "chopperStepDown.iDC2" seems to be text, this is good.
+2020-02-13Z22:14:58 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:14:58 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepDown\ChopperStepDown_R\ChopperStepDown_R.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepDown\ChopperStepDown_R\ChopperStepDown_R.csv"
+2020-02-13Z22:14:58 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:58 [     Warning ] meanCurrent.x is invalid! 13295 errors have been found during validation.
+2020-02-13Z22:14:59 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:59 [     Warning ] meanVoltage.x is invalid! 11724 errors have been found during validation.
+2020-02-13Z22:14:59 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:14:59 [     Warning ] meanCurrent.y is invalid! 19988 errors have been found during validation.
+2020-02-13Z22:15:00 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:00 [     Warning ] meanVoltage.y is invalid! 19988 errors have been found during validation.
+2020-02-13Z22:15:00 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:00 [     Warning ] chopperStepDown.vDC1 is invalid! 20230 errors have been found during validation.
+2020-02-13Z22:15:01 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:01 [     Warning ] chopperStepDown.iDC1 is invalid! 1239 errors have been found during validation.
+2020-02-13Z22:15:01 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:01 [     Warning ] chopperStepDown.vDC2 is invalid! 70 errors have been found during validation.
+2020-02-13Z22:15:01 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:01 [     Warning ] chopperStepDown.iDC2 is invalid! 9249 errors have been found during validation.
+2020-02-13Z22:15:04 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepDown.ChopperStepDown_R.ChopperStepDown_R_report.html
+2020-02-13Z22:15:04 [       Debug ] Searching for file ChopperStepDown_RL.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:04 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:04 [       Debug ] Column "inductor.i" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "chopperStepDown.vDC1" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "chopperStepDown.iDC1" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "chopperStepDown.vDC2" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "chopperStepDown.iDC2" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "inductor.i" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "chopperStepDown.vDC1" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "chopperStepDown.iDC1" seems to be text, this is good.
+2020-02-13Z22:15:04 [       Debug ] Column "chopperStepDown.vDC2" seems to be text, this is good.
+2020-02-13Z22:15:05 [       Debug ] Column "chopperStepDown.iDC2" seems to be text, this is good.
+2020-02-13Z22:15:05 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:05 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepDown\ChopperStepDown_RL\ChopperStepDown_RL.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepDown\ChopperStepDown_RL\ChopperStepDown_RL.csv"
+2020-02-13Z22:15:05 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:05 [     Warning ] inductor.i is invalid! 20036 errors have been found during validation.
+2020-02-13Z22:15:05 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:05 [     Warning ] meanCurrent.x is invalid! 12832 errors have been found during validation.
+2020-02-13Z22:15:06 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:06 [     Warning ] meanVoltage.x is invalid! 12443 errors have been found during validation.
+2020-02-13Z22:15:06 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:06 [     Warning ] meanCurrent.y is invalid! 20019 errors have been found during validation.
+2020-02-13Z22:15:06 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:06 [     Warning ] meanVoltage.y is invalid! 20018 errors have been found during validation.
+2020-02-13Z22:15:07 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:07 [     Warning ] chopperStepDown.vDC1 is invalid! 20260 errors have been found during validation.
+2020-02-13Z22:15:08 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:08 [     Warning ] chopperStepDown.iDC1 is invalid! 1993 errors have been found during validation.
+2020-02-13Z22:15:08 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:08 [     Warning ] chopperStepDown.vDC2 is invalid! 222 errors have been found during validation.
+2020-02-13Z22:15:08 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:08 [     Warning ] chopperStepDown.iDC2 is invalid! 20036 errors have been found during validation.
+2020-02-13Z22:15:12 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepDown.ChopperStepDown_RL.ChopperStepDown_RL_report.html
+2020-02-13Z22:15:12 [       Debug ] Searching for file ChopperStepUp_R.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:12 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:12 [       Debug ] Column "capacitor.v" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "inductor.i" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "meanCurrent.y" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "meanVoltage.y" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "chopperStepUp.vDC1" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "chopperStepUp.iDC1" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "chopperStepUp.vDC2" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "chopperStepUp.iDC2" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "capacitor.v" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "inductorSource.i" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "meanCurrent.x" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Column "meanVoltage.x" seems to be text, this is good.
+2020-02-13Z22:15:12 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:12 [ Information ] Comparing "c:\compare\Failed\Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepUp\ChopperStepUp_R\ChopperStepUp_R.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepUp\ChopperStepUp_R\ChopperStepUp_R.csv"
+2020-02-13Z22:15:12 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:12 [     Warning ] capacitor.v is invalid! 20174 errors have been found during validation.
+2020-02-13Z22:15:13 [     Warning ] inductorSource.i not found in "c:\compare\Failed\Modelica\Electrical\PowerConverters\Examples\DCDC\ChopperStepUp\ChopperStepUp_R\ChopperStepUp_R.csv", skipping checks.
+2020-02-13Z22:15:13 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:13 [     Warning ] meanCurrent.x is invalid! 11633 errors have been found during validation.
+2020-02-13Z22:15:13 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:13 [     Warning ] meanVoltage.x is invalid! 7642 errors have been found during validation.
+2020-02-13Z22:15:15 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Electrical.PowerConverters.Examples.DCDC.ChopperStepUp.ChopperStepUp_R.ChopperStepUp_R_report.html
+2020-02-13Z22:15:15 [       Debug ] Searching for file BatchPlant_StandardWater.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:15 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:15 [       Debug ] Column "B1.level" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B1.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B2.level" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B2.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B3.level" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B3.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B4.level" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B4.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B5.level" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B5.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B6.level" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B6.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B7.level" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B7.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "P1.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "P1.medium.p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "P2.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "P2.medium.p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipeB1B2.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipeB1B2.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipeB1B2.mediums[2].h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipeB1B2.mediums[2].p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipePump1B1.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipePump1B1.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipePump1B1.mediums[2].h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipePump1B1.mediums[2].p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipePump2B2.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipePump2B2.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipePump2B2.mediums[2].h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "pipePump2B2.mediums[2].p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "volume4.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "volume4.medium.p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "volume5.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "volume5.medium.p" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B5.InnerTankBottom[1].m_flow_negative" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B5.InnerTankSide[1].m_flow_negative" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "B5.InnerTankTop[1].m_flow_negative" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "P1_on.y" seems to be text, this is good.
+2020-02-13Z22:15:15 [       Debug ] Column "P2_on.y" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition1.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition10.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition11.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition12.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition13.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition2.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition3.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition4.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition5.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition6.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition7.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition8.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition9.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.TransitionWithSignal1.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B1.level" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B1.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B2.level" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B2.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B3.level" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B3.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B4.level" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B4.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B5.level" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B5.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B6.level" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B6.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B7.level" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B7.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "P1.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "P1.medium.p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "P2.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "P2.medium.p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipeB1B2.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipeB1B2.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipeB1B2.mediums[2].h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipeB1B2.mediums[2].p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipePump1B1.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipePump1B1.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipePump1B1.mediums[2].h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipePump1B1.mediums[2].p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipePump2B2.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipePump2B2.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipePump2B2.mediums[2].h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "pipePump2B2.mediums[2].p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "volume4.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "volume4.medium.p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "volume5.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "volume5.medium.p" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B5.InnerTankBottom[1].m_flow_negative" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B5.InnerTankSide[1].m_flow_negative" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "B5.InnerTankTop[1].m_flow_negative" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "P1_on.y" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "P2_on.y" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition1.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:16 [       Debug ] Column "controller.Transition10.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition11.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition12.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition13.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition2.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition3.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition4.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition5.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition6.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition7.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition8.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.Transition9.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Column "controller.TransitionWithSignal1.enableFire" seems to be text, this is good.
+2020-02-13Z22:15:17 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:17 [ Information ] Comparing "c:\compare\Failed\Modelica\Fluid\Examples\AST_BatchPlant\BatchPlant_StandardWater\BatchPlant_StandardWater.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Fluid\Examples\AST_BatchPlant\BatchPlant_StandardWater\BatchPlant_StandardWater.csv"
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B1.level is valid
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B1.medium.h is valid
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B2.level is valid
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B2.medium.h is valid
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B3.level is valid
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B3.medium.h is valid
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B4.level is valid
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B4.medium.h is valid
+2020-02-13Z22:15:17 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:17 [ Information ] B5.level is valid
+2020-02-13Z22:15:18 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:18 [ Information ] B5.medium.h is valid
+2020-02-13Z22:15:18 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:18 [ Information ] B6.level is valid
+2020-02-13Z22:15:18 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:18 [ Information ] B6.medium.h is valid
+2020-02-13Z22:15:18 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:18 [ Information ] B7.level is valid
+2020-02-13Z22:15:18 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [ Information ] B7.medium.h is valid
+2020-02-13Z22:15:19 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [ Information ] P1.medium.h is valid
+2020-02-13Z22:15:19 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [     Warning ] P1.medium.p is invalid! 3074 errors have been found during validation.
+2020-02-13Z22:15:19 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [ Information ] P2.medium.h is valid
+2020-02-13Z22:15:19 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [     Warning ] P2.medium.p is invalid! 5761 errors have been found during validation.
+2020-02-13Z22:15:19 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [ Information ] pipeB1B2.mediums[1].h is valid
+2020-02-13Z22:15:19 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [ Information ] pipeB1B2.mediums[1].p is valid
+2020-02-13Z22:15:19 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [ Information ] pipeB1B2.mediums[2].h is valid
+2020-02-13Z22:15:19 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:19 [ Information ] pipeB1B2.mediums[2].p is valid
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [ Information ] pipePump1B1.mediums[1].h is valid
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [     Warning ] pipePump1B1.mediums[1].p is invalid! 3061 errors have been found during validation.
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [ Information ] pipePump1B1.mediums[2].h is valid
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [     Warning ] pipePump1B1.mediums[2].p is invalid! 3055 errors have been found during validation.
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [ Information ] pipePump2B2.mediums[1].h is valid
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [     Warning ] pipePump2B2.mediums[1].p is invalid! 5716 errors have been found during validation.
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [ Information ] pipePump2B2.mediums[2].h is valid
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [     Warning ] pipePump2B2.mediums[2].p is invalid! 5721 errors have been found during validation.
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [ Information ] volume4.medium.h is valid
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:20 [ Information ] volume4.medium.p is valid
+2020-02-13Z22:15:20 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] volume5.medium.h is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] volume5.medium.p is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] B5.InnerTankBottom[1].m_flow_negative is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] B5.InnerTankSide[1].m_flow_negative is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] B5.InnerTankTop[1].m_flow_negative is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] P1_on.y is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] P2_on.y is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition1.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition10.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition11.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition12.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition13.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition2.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition3.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition4.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition5.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:21 [ Information ] controller.Transition6.enableFire is valid
+2020-02-13Z22:15:21 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:22 [ Information ] controller.Transition7.enableFire is valid
+2020-02-13Z22:15:22 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:22 [ Information ] controller.Transition8.enableFire is valid
+2020-02-13Z22:15:22 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:22 [ Information ] controller.Transition9.enableFire is valid
+2020-02-13Z22:15:22 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:22 [ Information ] controller.TransitionWithSignal1.enableFire is valid
+2020-02-13Z22:15:23 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Fluid.Examples.AST_BatchPlant.BatchPlant_StandardWater.BatchPlant_StandardWater_report.html
+2020-02-13Z22:15:23 [       Debug ] Searching for file HeatingSystem.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:23 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:23 [       Debug ] Column "heater.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "heater.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "pipe.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "pipe.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "pipe.mediums[2].h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "pipe.mediums[2].p" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "radiator.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "radiator.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "tank.level" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "tank.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "heater.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "heater.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "pipe.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "pipe.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "pipe.mediums[2].h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "pipe.mediums[2].p" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "radiator.mediums[1].h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "radiator.mediums[1].p" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "tank.level" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Column "tank.medium.h" seems to be text, this is good.
+2020-02-13Z22:15:23 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:23 [ Information ] Comparing "c:\compare\Failed\Modelica\Fluid\Examples\HeatingSystem\HeatingSystem.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Fluid\Examples\HeatingSystem\HeatingSystem.csv"
+2020-02-13Z22:15:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:23 [ Information ] heater.mediums[1].h is valid
+2020-02-13Z22:15:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:23 [ Information ] heater.mediums[1].p is valid
+2020-02-13Z22:15:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:23 [ Information ] pipe.mediums[1].h is valid
+2020-02-13Z22:15:23 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:24 [ Information ] pipe.mediums[1].p is valid
+2020-02-13Z22:15:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:24 [ Information ] pipe.mediums[2].h is valid
+2020-02-13Z22:15:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:24 [ Information ] pipe.mediums[2].p is valid
+2020-02-13Z22:15:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:24 [     Warning ] radiator.mediums[1].h is invalid! 3258 errors have been found during validation.
+2020-02-13Z22:15:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:24 [ Information ] radiator.mediums[1].p is valid
+2020-02-13Z22:15:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:24 [ Information ] tank.level is valid
+2020-02-13Z22:15:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:24 [     Warning ] tank.medium.h is invalid! 2610 errors have been found during validation.
+2020-02-13Z22:15:25 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Fluid.Examples.HeatingSystem.HeatingSystem_report.html
+2020-02-13Z22:15:25 [       Debug ] Searching for file IMS_Start_Polyphase.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:25 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:25 [       Debug ] Column "aims3.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aims3.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aims3.rotor.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aims3.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aims3.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aimsM.rotor.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "loadInertia3.phi" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "loadInertia3.w" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "loadInertiaM.phi" seems to be text, this is good.
+2020-02-13Z22:15:25 [       Debug ] Column "loadInertiaM.w" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aims3.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aims3.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aims3.rotor.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aims3.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aims3.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aimsM.rotor.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "loadInertia3.phi" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "loadInertia3.w" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "loadInertiaM.phi" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Column "loadInertiaM.w" seems to be text, this is good.
+2020-02-13Z22:15:26 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:26 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\ComparisonPolyphase\IMS_Start_Polyphase\IMS_Start_Polyphase.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\ComparisonPolyphase\IMS_Start_Polyphase\IMS_Start_Polyphase.csv"
+2020-02-13Z22:15:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:26 [ Information ] aims3.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:27 [ Information ] aims3.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:27 [     Warning ] aims3.rotor.zeroInductor.i0 is invalid! 5282 errors have been found during validation.
+2020-02-13Z22:15:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:28 [ Information ] aims3.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:28 [ Information ] aims3.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:28 [ Information ] aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:29 [ Information ] aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:29 [     Warning ] aimsM.rotor.zeroInductor.i0 is invalid! 2897 errors have been found during validation.
+2020-02-13Z22:15:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:30 [ Information ] aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:30 [ Information ] aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:31 [ Information ] loadInertia3.phi is valid
+2020-02-13Z22:15:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:31 [ Information ] loadInertia3.w is valid
+2020-02-13Z22:15:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:31 [ Information ] loadInertiaM.phi is valid
+2020-02-13Z22:15:32 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:32 [ Information ] loadInertiaM.w is valid
+2020-02-13Z22:15:34 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.ComparisonPolyphase.IMS_Start_Polyphase.IMS_Start_Polyphase_report.html
+2020-02-13Z22:15:34 [       Debug ] Searching for file IMC_DOL.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:34 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.i_0_s" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.idq_rr[1]" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.idq_rr[2]" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.idq_sr[1]" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.idq_sr[2]" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "loadInertiaE.phi" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "loadInertiaE.w" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "loadInertiaM.phi" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "loadInertiaM.w" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.i_0_s" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.idq_rr[1]" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.idq_rr[2]" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.idq_sr[1]" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcE.idq_sr[2]" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.stator.strayReluctance.port_p.Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.stator.strayReluctance.port_p.Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "aimcM.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "loadInertiaE.phi" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "loadInertiaE.w" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "loadInertiaM.phi" seems to be text, this is good.
+2020-02-13Z22:15:35 [       Debug ] Column "loadInertiaM.w" seems to be text, this is good.
+2020-02-13Z22:15:36 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:36 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_DOL\IMC_DOL.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_DOL\IMC_DOL.csv"
+2020-02-13Z22:15:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:36 [     Warning ] aimcE.i_0_s is invalid! 1240 errors have been found during validation.
+2020-02-13Z22:15:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:36 [ Information ] aimcE.idq_rr[1] is valid
+2020-02-13Z22:15:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:37 [ Information ] aimcE.idq_rr[2] is valid
+2020-02-13Z22:15:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:37 [ Information ] aimcE.idq_sr[1] is valid
+2020-02-13Z22:15:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:37 [ Information ] aimcE.idq_sr[2] is valid
+2020-02-13Z22:15:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:37 [ Information ] aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:38 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:38 [ Information ] aimcM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:38 [     Warning ] aimcM.stator.strayReluctance.port_p.Phi.im not found in "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_DOL\IMC_DOL.csv", skipping checks.
+2020-02-13Z22:15:38 [     Warning ] aimcM.stator.strayReluctance.port_p.Phi.re not found in "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_DOL\IMC_DOL.csv", skipping checks.
+2020-02-13Z22:15:38 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:38 [     Warning ] aimcM.stator.zeroInductor.i0 is invalid! 14842 errors have been found during validation.
+2020-02-13Z22:15:39 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:39 [ Information ] loadInertiaE.phi is valid
+2020-02-13Z22:15:39 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:39 [ Information ] loadInertiaE.w is valid
+2020-02-13Z22:15:39 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:40 [ Information ] loadInertiaM.phi is valid
+2020-02-13Z22:15:40 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:40 [ Information ] loadInertiaM.w is valid
+2020-02-13Z22:15:43 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_DOL.IMC_DOL_report.html
+2020-02-13Z22:15:43 [       Debug ] Searching for file IMC_Initialize.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:43 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.airGap.V_mrr.im" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.airGap.V_mrr.re" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.airGap.V_msr.im" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.airGap.V_msr.re" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.stator.port_p.V_m.im" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.stator.port_p.V_m.re" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:15:43 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.airGap.V_mrr.im" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.airGap.V_mrr.re" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.airGap.V_msr.im" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.airGap.V_msr.re" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.stator.strayReluctance.port_p.Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.stator.strayReluctance.port_p.Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:15:44 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:44 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv"
+2020-02-13Z22:15:44 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:44 [ Information ] aimc.airGap.V_mrr.im is valid
+2020-02-13Z22:15:45 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:45 [ Information ] aimc.airGap.V_mrr.re is valid
+2020-02-13Z22:15:45 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:45 [ Information ] aimc.airGap.V_msr.im is valid
+2020-02-13Z22:15:45 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:46 [ Information ] aimc.airGap.V_msr.re is valid
+2020-02-13Z22:15:46 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:46 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:46 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:46 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:47 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:47 [ Information ] aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:47 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:47 [ Information ] aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:47 [     Warning ] aimc.stator.strayReluctance.port_p.Phi.im not found in "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv", skipping checks.
+2020-02-13Z22:15:47 [     Warning ] aimc.stator.strayReluctance.port_p.Phi.re not found in "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv", skipping checks.
+2020-02-13Z22:15:47 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:47 [     Warning ] aimc.stator.zeroInductor.i0 is invalid! 9178 errors have been found during validation.
+2020-02-13Z22:15:48 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:48 [ Information ] loadInertia.phi is valid
+2020-02-13Z22:15:48 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:15:48 [ Information ] loadInertia.w is valid
+2020-02-13Z22:15:49 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Initialize.IMC_Initialize_report.html
+2020-02-13Z22:15:49 [       Debug ] Searching for file IMC_Steinmetz.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:49 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:49 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "cRun.v" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "cStart.v" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "cRun.v" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "cStart.v" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:15:50 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:15:51 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:51 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Steinmetz\IMC_Steinmetz.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Steinmetz\IMC_Steinmetz.csv"
+2020-02-13Z22:15:51 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:51 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:51 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:51 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:51 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:51 [ Information ] aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:51 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:51 [ Information ] aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:51 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:52 [     Warning ] aimc.stator.zeroInductor.i0 is invalid! 7669 errors have been found during validation.
+2020-02-13Z22:15:52 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:52 [ Information ] cRun.v is valid
+2020-02-13Z22:15:52 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:52 [ Information ] cStart.v is valid
+2020-02-13Z22:15:53 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:53 [ Information ] loadInertia.phi is valid
+2020-02-13Z22:15:53 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:53 [ Information ] loadInertia.w is valid
+2020-02-13Z22:15:54 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Steinmetz.IMC_Steinmetz_report.html
+2020-02-13Z22:15:54 [       Debug ] Searching for file IMC_Transformer.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:15:54 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "transformer.l2sigma.inductor[1].i" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "transformer.l2sigma.inductor[3].i" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "transformer.l2sigma.inductor[1].i" seems to be text, this is good.
+2020-02-13Z22:15:55 [       Debug ] Column "transformer.l2sigma.inductor[3].i" seems to be text, this is good.
+2020-02-13Z22:15:56 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:15:56 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Transformer\IMC_Transformer.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Transformer\IMC_Transformer.csv"
+2020-02-13Z22:15:56 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:56 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:56 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:56 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:57 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:57 [ Information ] aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:15:57 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:57 [ Information ] aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:15:58 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:58 [     Warning ] aimc.stator.zeroInductor.i0 is invalid! 1949 errors have been found during validation.
+2020-02-13Z22:15:58 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:58 [ Information ] loadInertia.phi is valid
+2020-02-13Z22:15:59 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:15:59 [ Information ] loadInertia.w is valid
+2020-02-13Z22:16:00 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:00 [ Information ] transformer.l2sigma.inductor[1].i is valid
+2020-02-13Z22:16:01 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:01 [ Information ] transformer.l2sigma.inductor[3].i is valid
+2020-02-13Z22:16:03 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Transformer.IMC_Transformer_report.html
+2020-02-13Z22:16:03 [       Debug ] Searching for file IMC_withLosses.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:16:03 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:16:03 [       Debug ] Column "PI.x" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.airGap.V_mrr.im" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.airGap.V_mrr.re" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.airGap.V_msr.im" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.airGap.V_msr.re" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.stator.core.Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.stator.core.Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.stator.port_p.V_m.im" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.stator.port_p.V_m.re" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:16:03 [       Debug ] Column "powerSensor.flange_a.phi" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "PI.x" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.airGap.V_mrr.im" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.airGap.V_mrr.re" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.airGap.V_msr.im" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.airGap.V_msr.re" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.stator.core.Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.stator.core.Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.stator.strayReluctance.port_p.Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.stator.strayReluctance.port_p.Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:16:05 [       Debug ] Column "powerSensor.flange_a.phi" seems to be text, this is good.
+2020-02-13Z22:16:06 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:16:06 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_withLosses\IMC_withLosses.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_withLosses\IMC_withLosses.csv"
+2020-02-13Z22:16:06 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:06 [ Information ] PI.x is valid
+2020-02-13Z22:16:07 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:07 [ Information ] aimc.airGap.V_mrr.im is valid
+2020-02-13Z22:16:08 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:08 [ Information ] aimc.airGap.V_mrr.re is valid
+2020-02-13Z22:16:09 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:09 [ Information ] aimc.airGap.V_msr.im is valid
+2020-02-13Z22:16:10 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:10 [ Information ] aimc.airGap.V_msr.re is valid
+2020-02-13Z22:16:12 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:12 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:16:13 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:13 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:16:14 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:14 [ Information ] aimc.stator.core.Phi.im is valid
+2020-02-13Z22:16:15 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:15 [ Information ] aimc.stator.core.Phi.re is valid
+2020-02-13Z22:16:15 [     Warning ] aimc.stator.strayReluctance.port_p.Phi.im not found in "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_withLosses\IMC_withLosses.csv", skipping checks.
+2020-02-13Z22:16:15 [     Warning ] aimc.stator.strayReluctance.port_p.Phi.re not found in "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_withLosses\IMC_withLosses.csv", skipping checks.
+2020-02-13Z22:16:15 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:16 [     Warning ] aimc.stator.zeroInductor.i0 is invalid! 25951 errors have been found during validation.
+2020-02-13Z22:16:22 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:22 [ Information ] loadInertia.w is valid
+2020-02-13Z22:16:24 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:24 [ Information ] powerSensor.flange_a.phi is valid
+2020-02-13Z22:16:26 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_withLosses.IMC_withLosses_report.html
+2020-02-13Z22:16:26 [       Debug ] Searching for file IMC_YD.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:16:27 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "aimc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:16:27 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:16:27 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_YD\IMC_YD.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_YD\IMC_YD.csv"
+2020-02-13Z22:16:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:28 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:16:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:28 [ Information ] aimc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:16:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:29 [ Information ] aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:16:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:29 [ Information ] aimc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:16:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:30 [     Warning ] aimc.stator.zeroInductor.i0 is invalid! 183 errors have been found during validation.
+2020-02-13Z22:16:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:30 [ Information ] loadInertia.phi is valid
+2020-02-13Z22:16:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:30 [ Information ] loadInertia.w is valid
+2020-02-13Z22:16:32 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_YD.IMC_YD_report.html
+2020-02-13Z22:16:32 [       Debug ] Searching for file IMS_Start.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:16:32 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:16:32 [       Debug ] Column "aimsE.i_0_r" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsE.i_0_s" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsE.idq_rr[1]" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsE.idq_rr[2]" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsE.idq_sr[1]" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsE.idq_sr[2]" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsM.rotor.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "aimsM.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:32 [       Debug ] Column "loadInertiaE.phi" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "loadInertiaE.w" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "loadInertiaM.phi" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "loadInertiaM.w" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsE.i_0_r" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsE.i_0_s" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsE.idq_rr[1]" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsE.idq_rr[2]" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsE.idq_sr[1]" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsE.idq_sr[2]" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsM.rotor.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "aimsM.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "loadInertiaE.phi" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "loadInertiaE.w" seems to be text, this is good.
+2020-02-13Z22:16:33 [       Debug ] Column "loadInertiaM.phi" seems to be text, this is good.
+2020-02-13Z22:16:34 [       Debug ] Column "loadInertiaM.w" seems to be text, this is good.
+2020-02-13Z22:16:34 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:16:34 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMS_Start\IMS_Start.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMS_Start\IMS_Start.csv"
+2020-02-13Z22:16:34 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:34 [     Warning ] aimsE.i_0_r is invalid! 1297 errors have been found during validation.
+2020-02-13Z22:16:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:35 [     Warning ] aimsE.i_0_s is invalid! 1378 errors have been found during validation.
+2020-02-13Z22:16:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:36 [ Information ] aimsE.idq_rr[1] is valid
+2020-02-13Z22:16:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:36 [ Information ] aimsE.idq_rr[2] is valid
+2020-02-13Z22:16:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:36 [ Information ] aimsE.idq_sr[1] is valid
+2020-02-13Z22:16:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:37 [ Information ] aimsE.idq_sr[2] is valid
+2020-02-13Z22:16:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:37 [ Information ] aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:16:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:37 [ Information ] aimsM.rotor.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:16:38 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:38 [ Information ] aimsM.rotor.zeroInductor.i0 is valid
+2020-02-13Z22:16:38 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:38 [ Information ] aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:16:39 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:39 [ Information ] aimsM.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:16:39 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:39 [     Warning ] aimsM.stator.zeroInductor.i0 is invalid! 9340 errors have been found during validation.
+2020-02-13Z22:16:40 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:40 [ Information ] loadInertiaE.phi is valid
+2020-02-13Z22:16:41 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:41 [ Information ] loadInertiaE.w is valid
+2020-02-13Z22:16:41 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:41 [ Information ] loadInertiaM.phi is valid
+2020-02-13Z22:16:41 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:41 [ Information ] loadInertiaM.w is valid
+2020-02-13Z22:16:45 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMS_Start.IMS_Start_report.html
+2020-02-13Z22:16:46 [       Debug ] Searching for file IMC_Conveyor.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:16:46 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:16:46 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "imc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "imcQS.rotorCage.port_p.reference.gamma" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "mass.s" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "mass.v" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "massQS.s" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "massQS.v" seems to be text, this is good.
+2020-02-13Z22:16:46 [       Debug ] Column "vfController.x" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "imc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "imcQS.rotorCage.port_p.reference.gamma" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "mass.s" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "mass.v" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "massQS.s" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "massQS.v" seems to be text, this is good.
+2020-02-13Z22:16:50 [       Debug ] Column "vfController.x" seems to be text, this is good.
+2020-02-13Z22:16:54 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:16:54 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Conveyor\IMC_Conveyor.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Conveyor\IMC_Conveyor.csv"
+2020-02-13Z22:16:54 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:54 [ Information ] imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:16:58 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:16:59 [ Information ] imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:17:04 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:05 [ Information ] imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:17:09 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:10 [ Information ] imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:17:13 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:15 [     Warning ] imc.stator.zeroInductor.i0 is invalid! 3857 errors have been found during validation.
+2020-02-13Z22:17:21 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:21 [ Information ] imcQS.rotorCage.port_p.reference.gamma is valid
+2020-02-13Z22:17:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:25 [ Information ] mass.s is valid
+2020-02-13Z22:17:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:28 [ Information ] mass.v is valid
+2020-02-13Z22:17:31 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:31 [ Information ] massQS.s is valid
+2020-02-13Z22:17:34 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:35 [ Information ] massQS.v is valid
+2020-02-13Z22:17:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:17:37 [ Information ] vfController.x is valid
+2020-02-13Z22:17:44 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Conveyor.IMC_Conveyor_report.html
+2020-02-13Z22:17:44 [       Debug ] Searching for file IMC_Initialize.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:17:44 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:17:44 [       Debug ] Column "imc.airGap.V_mrr.im" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.airGap.V_mrr.re" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.airGap.V_msr.im" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.airGap.V_msr.re" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.stator.port_p.V_m.im" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.stator.port_p.V_m.re" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "imcQS.rotorCage.port_p.reference.gamma" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "loadInertiaQS.phi" seems to be text, this is good.
+2020-02-13Z22:17:44 [       Debug ] Column "loadInertiaQS.w" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.airGap.V_mrr.im" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.airGap.V_mrr.re" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.airGap.V_msr.im" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.airGap.V_msr.re" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.stator.strayReluctance.port_p.Phi.im" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.stator.strayReluctance.port_p.Phi.re" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "imcQS.rotorCage.port_p.reference.gamma" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "loadInertiaQS.phi" seems to be text, this is good.
+2020-02-13Z22:17:48 [       Debug ] Column "loadInertiaQS.w" seems to be text, this is good.
+2020-02-13Z22:17:51 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:17:51 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv"
+2020-02-13Z22:17:51 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:17:52 [ Information ] imc.airGap.V_mrr.im is valid
+2020-02-13Z22:17:54 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:17:54 [ Information ] imc.airGap.V_mrr.re is valid
+2020-02-13Z22:17:57 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:17:57 [ Information ] imc.airGap.V_msr.im is valid
+2020-02-13Z22:17:59 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:18:00 [ Information ] imc.airGap.V_msr.re is valid
+2020-02-13Z22:18:02 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:18:26 [ Information ] imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:18:28 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:19:01 [ Information ] imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:19:05 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:19:05 [ Information ] imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:19:08 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:19:08 [ Information ] imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:19:11 [     Warning ] imc.stator.strayReluctance.port_p.Phi.im not found in "c:\compare\Failed\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv", skipping checks.
+2020-02-13Z22:19:11 [     Warning ] imc.stator.strayReluctance.port_p.Phi.re not found in "c:\compare\Failed\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Initialize\IMC_Initialize.csv", skipping checks.
+2020-02-13Z22:19:11 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:19:12 [     Warning ] imc.stator.zeroInductor.i0 is invalid! 88371 errors have been found during validation.
+2020-02-13Z22:20:08 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:08 [ Information ] imcQS.rotorCage.port_p.reference.gamma is valid
+2020-02-13Z22:20:11 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:11 [ Information ] loadInertia.phi is valid
+2020-02-13Z22:20:13 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:13 [ Information ] loadInertia.w is valid
+2020-02-13Z22:20:16 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:16 [ Information ] loadInertiaQS.phi is valid
+2020-02-13Z22:20:18 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:18 [ Information ] loadInertiaQS.w is valid
+2020-02-13Z22:20:24 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Initialize.IMC_Initialize_report.html
+2020-02-13Z22:20:24 [       Debug ] Searching for file IMC_Transformer.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:20:24 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:20:24 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "imc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "imcQS.rotorCage.port_p.reference.gamma" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "loadInertiaQS.phi" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "loadInertiaQS.w" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "transformer.l2sigma.inductor[1].i" seems to be text, this is good.
+2020-02-13Z22:20:24 [       Debug ] Column "transformer.l2sigma.inductor[3].i" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "imc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "imcQS.rotorCage.port_p.reference.gamma" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "loadInertiaQS.phi" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "loadInertiaQS.w" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "transformer.l2sigma.inductor[1].i" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Column "transformer.l2sigma.inductor[3].i" seems to be text, this is good.
+2020-02-13Z22:20:25 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:20:25 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Transformer\IMC_Transformer.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_Transformer\IMC_Transformer.csv"
+2020-02-13Z22:20:25 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:25 [ Information ] imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:20:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:26 [ Information ] imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:20:26 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:26 [ Information ] imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:20:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:27 [ Information ] imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:20:27 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:27 [     Warning ] imc.stator.zeroInductor.i0 is invalid! 1720 errors have been found during validation.
+2020-02-13Z22:20:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:28 [ Information ] imcQS.rotorCage.port_p.reference.gamma is valid
+2020-02-13Z22:20:28 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:28 [ Information ] loadInertia.phi is valid
+2020-02-13Z22:20:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:29 [ Information ] loadInertia.w is valid
+2020-02-13Z22:20:29 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:29 [ Information ] loadInertiaQS.phi is valid
+2020-02-13Z22:20:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:30 [ Information ] loadInertiaQS.w is valid
+2020-02-13Z22:20:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:30 [ Information ] transformer.l2sigma.inductor[1].i is valid
+2020-02-13Z22:20:30 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:30 [ Information ] transformer.l2sigma.inductor[3].i is valid
+2020-02-13Z22:20:32 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_Transformer.IMC_Transformer_report.html
+2020-02-13Z22:20:32 [       Debug ] Searching for file IMC_YD.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:20:33 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:20:33 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "imc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "imcQS.rotorCage.port_p.reference.gamma" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "loadInertiaQS.phi" seems to be text, this is good.
+2020-02-13Z22:20:33 [       Debug ] Column "loadInertiaQS.w" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "imc.stator.zeroInductor.i0" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "imcQS.rotorCage.port_p.reference.gamma" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "loadInertia.phi" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "loadInertia.w" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "loadInertiaQS.phi" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Column "loadInertiaQS.w" seems to be text, this is good.
+2020-02-13Z22:20:34 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:20:34 [ Information ] Comparing "c:\compare\Failed\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_YD\IMC_YD.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Magnetic\QuasiStatic\FundamentalWave\Examples\BasicMachines\InductionMachines\IMC_YD\IMC_YD.csv"
+2020-02-13Z22:20:34 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:34 [ Information ] imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:20:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:35 [ Information ] imc.rotorCage.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:20:35 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:35 [ Information ] imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[1].Phi.re is valid
+2020-02-13Z22:20:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:36 [ Information ] imc.stator.electroMagneticConverter.singlePhaseElectroMagneticConverter[2].Phi.im is valid
+2020-02-13Z22:20:36 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:37 [     Warning ] imc.stator.zeroInductor.i0 is invalid! 2165 errors have been found during validation.
+2020-02-13Z22:20:37 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:37 [ Information ] imcQS.rotorCage.port_p.reference.gamma is valid
+2020-02-13Z22:20:38 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:38 [ Information ] loadInertia.phi is valid
+2020-02-13Z22:20:38 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:38 [ Information ] loadInertia.w is valid
+2020-02-13Z22:20:39 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:39 [ Information ] loadInertiaQS.phi is valid
+2020-02-13Z22:20:39 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:39 [ Information ] loadInertiaQS.w is valid
+2020-02-13Z22:20:41 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Magnetic.QuasiStatic.FundamentalWave.Examples.BasicMachines.InductionMachines.IMC_YD.IMC_YD_report.html
+2020-02-13Z22:20:41 [       Debug ] Searching for file PointGravityWithPointMasses2.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:20:41 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.r_rel_a[1]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.r_rel_a[2]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.r_rel_a[3]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.v_rel_a[1]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.v_rel_a[2]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.v_rel_a[3]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass1.w_a[1]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass1.w_a[2]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass1.w_a[3]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass3.v_0[1]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass6.frame_a.r_0[1]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass6.frame_a.r_0[2]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass6.frame_a.r_0[3]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass6.v_0[2]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "referenceSystem.pointMass6.v_0[3]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.r_rel_a[1]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.r_rel_a[2]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.r_rel_a[3]" seems to be text, this is good.
+2020-02-13Z22:20:41 [       Debug ] Column "freeMotion.v_rel_a[1]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "freeMotion.v_rel_a[2]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "freeMotion.v_rel_a[3]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass1.w_a[1]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass1.w_a[2]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass1.w_a[3]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass3.v_0[1]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass6.frame_a.r_0[1]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass6.frame_a.r_0[2]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass6.frame_a.r_0[3]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass6.v_0[2]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Column "referenceSystem.pointMass6.v_0[3]" seems to be text, this is good.
+2020-02-13Z22:20:42 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:20:42 [ Information ] Comparing "c:\compare\Failed\Modelica\Mechanics\MultiBody\Examples\Elementary\PointGravityWithPointMasses2\PointGravityWithPointMasses2.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Mechanics\MultiBody\Examples\Elementary\PointGravityWithPointMasses2\PointGravityWithPointMasses2.csv"
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [ Information ] freeMotion.r_rel_a[1] is valid
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [     Warning ] freeMotion.r_rel_a[2] is invalid! 4038 errors have been found during validation.
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [ Information ] freeMotion.r_rel_a[3] is valid
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [ Information ] freeMotion.v_rel_a[1] is valid
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [     Warning ] freeMotion.v_rel_a[2] is invalid! 4029 errors have been found during validation.
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [ Information ] freeMotion.v_rel_a[3] is valid
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [     Warning ] referenceSystem.pointMass1.w_a[1] is invalid! 2094 errors have been found during validation.
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [ Information ] referenceSystem.pointMass1.w_a[2] is valid
+2020-02-13Z22:20:42 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:42 [     Warning ] referenceSystem.pointMass1.w_a[3] is invalid! 3342 errors have been found during validation.
+2020-02-13Z22:20:43 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:43 [ Information ] referenceSystem.pointMass3.v_0[1] is valid
+2020-02-13Z22:20:43 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:43 [ Information ] referenceSystem.pointMass6.frame_a.r_0[1] is valid
+2020-02-13Z22:20:43 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:43 [     Warning ] referenceSystem.pointMass6.frame_a.r_0[2] is invalid! 2428 errors have been found during validation.
+2020-02-13Z22:20:43 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:43 [ Information ] referenceSystem.pointMass6.frame_a.r_0[3] is valid
+2020-02-13Z22:20:43 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:43 [     Warning ] referenceSystem.pointMass6.v_0[2] is invalid! 2801 errors have been found during validation.
+2020-02-13Z22:20:43 [       Debug ] The resolution of the base x-axis is good.
+2020-02-13Z22:20:43 [ Information ] referenceSystem.pointMass6.v_0[3] is valid
+2020-02-13Z22:20:44 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Mechanics.MultiBody.Examples.Elementary.PointGravityWithPointMasses2.PointGravityWithPointMasses2_report.html
+2020-02-13Z22:20:44 [       Debug ] Searching for file Engine1b.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:20:44 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:20:44 [       Debug ] Column "inertia.phi" seems to be text, this is good.
+2020-02-13Z22:20:44 [       Debug ] Column "inertia.w" seems to be text, this is good.
+2020-02-13Z22:20:44 [       Debug ] Column "inertia.phi" seems to be text, this is good.
+2020-02-13Z22:20:44 [       Debug ] Column "inertia.w" seems to be text, this is good.
+2020-02-13Z22:20:44 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:20:44 [ Information ] Comparing "c:\compare\Failed\Modelica\Mechanics\MultiBody\Examples\Loops\Engine1b\Engine1b.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Mechanics\MultiBody\Examples\Loops\Engine1b\Engine1b.csv"
+2020-02-13Z22:20:44 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:44 [     Warning ] inertia.phi is invalid! 497 errors have been found during validation.
+2020-02-13Z22:20:44 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:44 [     Warning ] inertia.w is invalid! 525 errors have been found during validation.
+2020-02-13Z22:20:45 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Mechanics.MultiBody.Examples.Loops.Engine1b.Engine1b_report.html
+2020-02-13Z22:20:45 [       Debug ] Searching for file Engine1b_analytic.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:20:45 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:20:45 [       Debug ] Column "inertia.phi" seems to be text, this is good.
+2020-02-13Z22:20:45 [       Debug ] Column "inertia.w" seems to be text, this is good.
+2020-02-13Z22:20:45 [       Debug ] Column "inertia.phi" seems to be text, this is good.
+2020-02-13Z22:20:45 [       Debug ] Column "inertia.w" seems to be text, this is good.
+2020-02-13Z22:20:45 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:20:45 [ Information ] Comparing "c:\compare\Failed\Modelica\Mechanics\MultiBody\Examples\Loops\Engine1b_analytic\Engine1b_analytic.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\Mechanics\MultiBody\Examples\Loops\Engine1b_analytic\Engine1b_analytic.csv"
+2020-02-13Z22:20:45 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:45 [     Warning ] inertia.phi is invalid! 497 errors have been found during validation.
+2020-02-13Z22:20:45 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:45 [     Warning ] inertia.w is invalid! 525 errors have been found during validation.
+2020-02-13Z22:20:46 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.Mechanics.MultiBody.Examples.Loops.Engine1b_analytic.Engine1b_analytic_report.html
+2020-02-13Z22:20:46 [       Debug ] Searching for file FirstExample_Variant2.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:20:46 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:20:46 [       Debug ] Column "transition1.enableFire" seems to be text, this is good.
+2020-02-13Z22:20:46 [       Debug ] Column "transition2.enableFire" seems to be text, this is good.
+2020-02-13Z22:20:46 [       Debug ] Column "transition1.enableFire" seems to be text, this is good.
+2020-02-13Z22:20:46 [       Debug ] Column "transition2.enableFire" seems to be text, this is good.
+2020-02-13Z22:20:46 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:20:46 [ Information ] Comparing "c:\compare\Failed\Modelica\StateGraph\Examples\FirstExample_Variant2\FirstExample_Variant2.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\StateGraph\Examples\FirstExample_Variant2\FirstExample_Variant2.csv"
+2020-02-13Z22:20:46 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:46 [     Warning ] transition1.enableFire is invalid! 10 errors have been found during validation.
+2020-02-13Z22:20:46 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:46 [ Information ] transition2.enableFire is valid
+2020-02-13Z22:20:46 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.StateGraph.Examples.FirstExample_Variant2.FirstExample_Variant2_report.html
+2020-02-13Z22:20:46 [       Debug ] Searching for file FirstExample_Variant3.csv in c:\Projekte\MAP-LIB_ReferenceResults\
+2020-02-13Z22:20:46 [       Debug ] Found base file in given base directory "c:\Projekte\MAP-LIB_ReferenceResults\", comparing ...
+2020-02-13Z22:20:46 [       Debug ] Column "transition1.enableFire" seems to be text, this is good.
+2020-02-13Z22:20:46 [       Debug ] Column "transition2.enableFire" seems to be text, this is good.
+2020-02-13Z22:20:46 [       Debug ] Column "transition1.enableFire" seems to be text, this is good.
+2020-02-13Z22:20:46 [       Debug ] Column "transition2.enableFire" seems to be text, this is good.
+2020-02-13Z22:20:46 [       Debug ] Exiting with exit code "1".
+2020-02-13Z22:20:46 [ Information ] Comparing "c:\compare\Failed\Modelica\StateGraph\Examples\FirstExample_Variant3\FirstExample_Variant3.csv" to "c:\Projekte\MAP-LIB_ReferenceResults\Modelica\StateGraph\Examples\FirstExample_Variant3\FirstExample_Variant3.csv"
+2020-02-13Z22:20:46 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:46 [     Warning ] transition1.enableFire is invalid! 10 errors have been found during validation.
+2020-02-13Z22:20:46 [     Warning ] The resolution of the base x-axis is smaller than the compare x-axis. The better the base resolution is, the better the validation result will be!
+2020-02-13Z22:20:46 [ Information ] transition2.enableFire is valid
+2020-02-13Z22:20:46 [ Information ] Report has been written to: c:\compare\MSL400BETA1FAILED\Modelica.StateGraph.Examples.FirstExample_Variant3.FirstExample_Variant3_report.html
+2020-02-13Z22:20:46 [ Information ] Writing meta report to c:\compare\MSL400BETA1FAILED\2020-02-13-index.html
+2020-02-13Z22:20:46 [ Information ] Meta report has been written to: c:\compare\MSL400BETA1FAILED\2020-02-13-index.html
